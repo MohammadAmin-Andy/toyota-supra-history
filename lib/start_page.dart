@@ -1,8 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:toyota_supra_info/company_explain.dart';
 
 class StartPage extends StatelessWidget {
   const StartPage({Key? key}) : super(key: key);
+
+  void navigateToPages(BuildContext context, Widget page) {
+    Navigator.of(context).push(
+      MaterialPageRoute(
+        builder: (BuildContext context) {
+          return page;
+        },
+      ),
+    );
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -36,7 +47,9 @@ class StartPage extends StatelessWidget {
                   ),
                   SizedBox(height: 30.0),
                   ElevatedButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      navigateToPages(context, CompanyExplain());
+                    },
                     child: Text(
                       'About TOYOTA company',
                       textDirection: TextDirection.ltr,
