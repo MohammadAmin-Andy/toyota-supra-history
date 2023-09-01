@@ -63,7 +63,7 @@ class CompanyExplain extends StatelessWidget {
                             fontSize: 15),
                       ),
                     ),
-                  )
+                  ),
                 ],
               ),
             ),
