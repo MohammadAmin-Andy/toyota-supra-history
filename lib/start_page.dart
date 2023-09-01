@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:toyota_supra_info/company_explain.dart';
+import 'package:toyota_supra_info/generation_page.dart';
 
 class StartPage extends StatelessWidget {
   const StartPage({Key? key}) : super(key: key);
@@ -18,7 +19,7 @@ class StartPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 164, 69, 13),
+      backgroundColor: Color.fromARGB(255, 192, 186, 27),
       body: SafeArea(
         child: Center(
           child: SingleChildScrollView(
@@ -69,7 +70,9 @@ class StartPage extends StatelessWidget {
                       shadowColor: Colors.black,
                       minimumSize: Size(225, 45),
                     ),
-                    onPressed: () {},
+                    onPressed: () {
+                      navigateToPages(context, Generations());
+                    },
                     child: Text(
                       'View Generations',
                       textDirection: TextDirection.ltr,

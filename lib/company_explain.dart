@@ -27,6 +27,7 @@ class CompanyExplain extends StatelessWidget {
               padding: EdgeInsets.all(12),
               child: Column(
                 children: [
+                  SizedBox(height: 5),
                   Image.asset('images/supra-final-removebg.png'),
                   SizedBox(height: 15),
                   Text(
