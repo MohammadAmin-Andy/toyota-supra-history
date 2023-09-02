@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:toyota_supra_info/company_explain.dart';
 import 'package:toyota_supra_info/generation/first_gen.dart';
+import 'generation/fifth_gen.dart';
 import 'generation/forth_gen.dart';
+import 'generation/pual_walker_supra.dart';
 import 'generation/second_gen.dart';
 import 'generation/third_gen.dart';
 import 'main.dart';
@@ -12,8 +14,22 @@ class Generations extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final generation_num = 6;
-    final gens = [FirstGen(), SecondGen(), ThirdGen(), ForthGen(), FirstGen()];
-    final photos = ['gen_1', 'gen_2', 'gen_3', 'gen_4', 'gen_5', 'pual_walker'];
+    final gens = [
+      FirstGen(),
+      SecondGen(),
+      ThirdGen(),
+      ForthGen(),
+      FifthGen(),
+      PualWalker(),
+    ];
+    final photos = [
+      'gen_1',
+      'gen_2',
+      'gen_3',
+      'gen_4',
+      'gen_5',
+      'pual_walker',
+    ];
     final title_photo = [
       'Toyota Supra MK I',
       'Toyota Supra MK II',
