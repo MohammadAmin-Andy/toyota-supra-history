@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:toyota_supra_info/company_explain.dart';
+//import 'package:toyota_supra_info/company_explain.dart';
 import 'package:toyota_supra_info/generation/first_gen.dart';
 import 'generation/fifth_gen.dart';
 import 'generation/forth_gen.dart';
