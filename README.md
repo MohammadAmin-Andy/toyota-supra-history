@@ -6,7 +6,8 @@ A simple application about the history of the Toyota company and the different g
  Flutter project about the history of the Toyota Supra car with photos and descriptions
 
 ## View project(Photos)
-![1](https://github.com/MohammadAmin-Andy/toyota-supra-history/assets/113265902/1195f35d-9d71-4e89-9b8a-083135cb1a29)
+
+![1](https://github.com/MohammadAmin-Andy/toyota-supra-history/assets/113265902/273782e3-25e3-41e2-bb22-87b4cfe122d6)
 ![2](https://github.com/MohammadAmin-Andy/toyota-supra-history/assets/113265902/d90ddf6c-aa31-418f-abde-de097f1178aa)
 ![4](https://github.com/MohammadAmin-Andy/toyota-supra-history/assets/113265902/afbd3efc-b9aa-477c-8a4d-32178b001b6f)
 ![6](https://github.com/MohammadAmin-Andy/toyota-supra-history/assets/113265902/5cdcc73c-2af7-488c-8c25-4db821192273)
